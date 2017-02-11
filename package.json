@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fortech",
-  "version": "1.0.0-alpha",
-  "description": "ESLint config used at Fortech based on the airbnb standard Edit",
+  "version": "1.0.0-alpha2",
+  "description": "ESLint config used at Fortech based on the airbnb standard",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/FortechRomania/eslint-config-fortech",
