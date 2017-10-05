@@ -10,7 +10,7 @@ module.exports = {
     "rules": {
         // indentation
         "indent": [ 2, 4, { "SwitchCase": 1 } ],
-        "max-len": [ 1, 120, { "ignoreUrls": true } ],
+        "max-len": [ 1, 100, { "ignoreUrls": true } ],
 
         // spacing
         "space-in-parens": [ 2, "always" ],
@@ -45,9 +45,10 @@ module.exports = {
         "react/jsx-filename-extension": 0,
         "react/jsx-indent-props": [ 2, 4 ],
 
-        //import
-        "import/no-extraneous-dependencies": 0,
+        // index files should not be forced to export default
         "import/prefer-default-export": 0,
-        "import/no-named-as-default-member": 0,
+
+        // test files mixed with project code
+        "import/no-extraneous-dependencies": 0
     }
 };
