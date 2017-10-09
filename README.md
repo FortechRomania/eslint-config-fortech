@@ -1,22 +1,43 @@
 # eslint-config-fortech
-ESLint config used at Fortech based on the airbnb standard
+ESLint config for modern JavaScript syntax.
 
 ## Usage
-Install eslint: `npm i eslint`
+Install eslint and the babel-eslint parser: 
+```javascript
+npm i eslint babel-eslint -D
+```
 
-Install the package: `npm i eslint-config-fortech`
+Install the package: 
+```javascript
+npm i eslint-config-fortech -D
+```
+
+Install peer dependencies: 
+```javascript
+npm i eslint-plugin-import -D
+```
 
 Create an `.eslintrc` file in your project root folder with the following content.
 ```javascript
 {
+    "env": {
+        "browser": true, // set this if you're running a browser app
+        "mocha": true // set this if you have mocha-style tests in your app folder
+    },
     "extends": "fortech"
 }
 ```
 
+For more details about the `env` object, check out the [list of possible values](https://eslint.org/docs/user-guide/configuring#specifying-environments).
+
 Additionally you can define your custom overwrites in `rules`:
 ```javascript
 {
-    "extends": "fortech",
+    "env": {
+        "browser": true,
+        "mocha": true
+    },
+    "extends": "fortech"
     "rules": {
         "quotes": [ 2, "single" ],
     }
