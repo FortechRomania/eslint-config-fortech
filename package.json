@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fortech",
   "version": "1.1.0",
-  "description": "ESLint config used at Fortech based on the airbnb standard",
+  "description": "ESLint config for modern JavaScript syntax",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/FortechRomania/eslint-config-fortech",
@@ -17,20 +17,16 @@
   "author": "alexnm <alex.n.moldovan@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
-    "eslint-config-airbnb": "^15.1.0"
+    "eslint-config-airbnb-base": "^12.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-import": "^2.7.0"
   },
   "peerDependencies": {
     "eslint": "^4.8.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-import": "^2.7.0"
   },
   "scripts": {
     "linter": "eslint ."

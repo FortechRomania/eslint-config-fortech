@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "airbnb",
+    "extends": "airbnb-base",
     "parser": "babel-eslint",
     "rules": {
         // indentation
@@ -32,12 +32,6 @@ module.exports = {
 
         // let's be flexible'
         "prefer-arrow-callback": 0,
-        
-        // react
-        "react/jsx-curly-spacing": [ 2, "always" ],
-        "react/jsx-indent": [ 2, 4 ],
-        "react/jsx-filename-extension": 0,
-        "react/jsx-indent-props": [ 2, 4 ],
 
         // index files should not be forced to export default
         "import/prefer-default-export": 0,
