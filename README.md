@@ -3,17 +3,17 @@ ESLint config for modern JavaScript syntax.
 
 ## Usage
 Install eslint and the babel-eslint parser: 
-```javascript
+```bash
 npm i eslint babel-eslint -D
 ```
 
 Install the package: 
-```javascript
+```bash
 npm i eslint-config-fortech -D
 ```
 
 Install peer dependencies: 
-```javascript
+```bash
 npm i eslint-plugin-import -D
 ```
 
