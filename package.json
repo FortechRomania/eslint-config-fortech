@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fortech",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint config for modern JavaScript syntax",
   "main": "index.js",
   "repository": {
