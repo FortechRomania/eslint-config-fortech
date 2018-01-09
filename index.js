@@ -23,7 +23,7 @@ module.exports = {
 
         // code arrangement matter
         "no-use-before-define": [ 2, { "functions": false } ],
-        
+
         // make it meaningful
         "prefer-const": 1,
         
@@ -37,6 +37,12 @@ module.exports = {
         "import/prefer-default-export": 0,
 
         // test files mixed with project code
-        "import/no-extraneous-dependencies": 0
+        "import/no-extraneous-dependencies": 0,
+
+        // mark all usages of one line blocks without the curly brances
+        "curly": [ 2, "all" ],
+
+        // enforce one-true-brace-style standard in JS
+        "brace-style": [ 2, "1tbs"]
     }
 };
